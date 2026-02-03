@@ -1,0 +1,10 @@
+{
+  "input": {
+    "prompt": "a cinematic photo of a small robot exploring a mossy forest, soft light",
+    "width": 1024,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "seed": 12345
+  }
+}
