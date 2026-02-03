@@ -24,3 +24,4 @@ This repo is a minimal RunPod Serverless worker that runs a Flux image generatio
 - Defaults are conservative for serverless inference. Adjust `num_inference_steps` and `guidance_scale` per your use case.
 
 # runpod-serverless-flux-dev
+# runpod-serverless-flux-dev
