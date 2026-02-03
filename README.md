@@ -22,6 +22,7 @@ This repo is a minimal RunPod Serverless worker that runs a Flux image generatio
 ## Notes
 - Flux models are large and expect a GPU. Allocate enough VRAM for the requested width/height.
 - Defaults are conservative for serverless inference. Adjust `num_inference_steps` and `guidance_scale` per your use case.
+- The Docker base image already includes a CUDA-matched PyTorch build, so `torch` is not pinned in `requirements.txt`.
 
 # runpod-serverless-flux-dev
 # runpod-serverless-flux-dev
